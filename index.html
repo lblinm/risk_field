@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My first three.js app</title>
+  <script type="module" crossorigin src="/assets/index-y7A0C70o.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D54JKu0F.css">
+</head>
+
+<body>
+  <div>
+    <div id="controls">
+      <button id="start">开始</button>
+      <button id="pause">暂停</button>
+      <button id="restart">重新开始</button>
+      <div id="speedControl">
+        <span id="speedDisplay">速度: 10x</span>
+        <button id="slowDown">-</button>
+        <button id="speedUp">+</button>
+      </div>
+      <div id="progressBar">
+        <div id="progress"></div>
+      </div>
+      <div id="progressText">进度: 0.00% / 100%</div>
+    </div>
+    <div id="choose">
+      <label>
+        <input type="radio" name="mode" value="1" checked> 同向来车风险场
+      </label>
+      <label>
+        <input type="radio" name="mode" value="2"> 对向来车风险场
+      </label>
+      <label>
+        <input type="radio" name="mode" value="3" disabled> 交叉口风险场
+      </label>
+      <label>
+        <input type="radio" name="mode" value="4" disabled> 编队车风险场
+      </label>
+    </div>
+  </div>
+
+</body>
+
+</html>
